@@ -45,7 +45,7 @@ BEGIN
 		TRUNCATE TABLE bronze.crm_prd_info
 		print '>>>Inserting data into: bronze.crm_prd_info '
 		BULK INSERT bronze.crm_prd_info
-		FROM 'C:\Users\Pawan Bhandari\OneDrive - University of Gloucestershire\Desktop\data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
+		FROM 'C:\Users\Pawan Bhandari\Desktop\data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
